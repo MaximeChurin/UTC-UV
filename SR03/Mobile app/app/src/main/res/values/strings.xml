@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GameStore</string>
+    <string name="Password">Password</string>
+    <string name="Email">Email</string>
+    <string name="SIGN_IN">SIGN IN</string>
+    <string name="wait_dialog">Please wait...</string>
+    <string name="MainTitle">Welcome</string>
+    <string name="GameList">Game List</string>
+    <string name="ConsoleList">Console List</string>
+    <string name="action_disconnect">Log out</string>
+    <string name="action_profile"></string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="profile">My profile</string>
+    <string name="price">Price</string>
+    <string name="consoles">Available on</string>
+</resources>
