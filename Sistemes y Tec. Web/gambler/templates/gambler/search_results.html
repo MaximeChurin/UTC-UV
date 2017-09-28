@@ -1,0 +1,17 @@
+{% extends "gambler/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<p>Pais : <strong>{{ query }}</strong></p>
+
+{% if equipos %}
+    <p>Equipos:</p>
+    <ul>
+        {% for equipo in equipos %}
+        <li>{{ equipo.nombreEquipo }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No existen equipo de este pais. Lo sentimos.</p>
+{% endif %}
+{% endblock %}

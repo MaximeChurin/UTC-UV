@@ -1,0 +1,64 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link	rel="stylesheet"	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jqueryui.css"/>
+    <script	src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script	src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="{% static "style/base.css" %}" />
+    <title>{% block title %}Gambler by Apostador.org{% endblock %}</title>
+</head>
+
+<body>
+
+<div id="header">
+    {% block header %}
+        {% if user.username %}
+            <h3>User {{ user.username }} (<a href="/accounts/logout/?next=/gambler/">logout</a>)</h3>
+        {% else %}
+            <h3><a href="/accounts/login/?next=/gambler/">Conectarse</a></h3>
+            <h3><a href="/accounts/register/?next=/gambler/">Registrarse</a></h3>
+        {% endif %}
+    {% endblock %}
+</div>
+
+
+<div id="sidebar">
+    {% block sidebar %}
+        <ul>
+            <li><a href="/gambler/">Home</a></li>
+        </ul>
+
+
+        <h3>Navigate : </h3>
+            <ul>
+                <li><a href="/gambler/partidos">Apuestar</a></li>
+            <li><a href="/gambler/equipos">Equipos</a></li>
+            <li><a href="/gambler/equipos_estatico">Busqueda de Equipos (Estatico)</a></li>
+            <li><a href="/gambler/equipos_dinamico">Busqueda de Equipos (Dinamico)</a></li>
+            {% if user.is_authenticated %}
+            <li><a href="/gambler/apuestas">Apuestas</a></li>
+            {% endif %}
+            <li><a href="/gambler/resultados">Resultados</a></li>
+        </ul>
+    {% endblock %}
+</div>
+
+<div id="content">
+    <h1>
+        Gambler
+    </h1>
+
+    {% block content %}
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+    {% endblock %}
+
+</div>
+
+<div id="footer">
+    {% block footer %}
+    {% endblock %}
+</div>
+
+</body>
+</html>

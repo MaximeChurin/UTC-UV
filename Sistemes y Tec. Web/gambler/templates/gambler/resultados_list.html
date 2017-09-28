@@ -1,0 +1,21 @@
+{% extends "gambler/show_lists.html" %}
+
+{% block list4 %}
+
+
+<h2>
+    Resultados :
+    {% if user.is_authenticated %}
+        (<a href="{% url 'gambler:resultado_create' %}">anadir</a>)
+    {% endif %}
+</h2>
+
+<ul>
+    {% for resultado in latest_resultado_list %}
+        <li> Goal Visitante : {{ resultado.golVisitante }} - Goal Local : {{ resultado.golLocal }}</li>
+    {% empty %}
+        <li>Disculpa pero por el momento no tenemos registrado ningun resultado.</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

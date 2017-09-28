@@ -1,0 +1,18 @@
+{% extends "gambler/base.html" %}
+
+{% block title %}Gambler {% endblock %}
+
+{% block content %}
+
+<h2>
+    Apuesta
+</h2>
+<ul>
+        <li>{{ apuesta.partido.equipoLocal.nombreEquipo }} {{ apuesta.resultado.golLocal }} - {{ apuesta.partido.equipoVisitante.nombreEquipo }} {{ apuesta.resultado.golVisitante }} Apuesta :  {{ apuesta.apuesta }} € </li>
+</ul>
+
+{% endblock %}
+
+{% block footer %}
+    Created by {{ apuesta.user }}
+{% endblock %}

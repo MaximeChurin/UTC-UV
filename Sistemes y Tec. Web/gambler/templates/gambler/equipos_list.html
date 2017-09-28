@@ -1,0 +1,17 @@
+{% extends "gambler/show_lists.html" %}
+
+{% block list2 %}
+
+<h2>
+    Equipos
+</h2>
+
+<ul>
+    {% for equipo in latest_equipo_list %}
+        <li>{{ equipo.nombreEquipo }}</li>
+    {% empty %}
+        <li>Disculpa pero por el momento no tenemos registrado ninguna equipo.</li>
+    {% endfor %}
+</ul>
+
+{% endblock list2 %}
