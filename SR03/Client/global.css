@@ -1,0 +1,99 @@
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+input {
+    color: black;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.div-game-offset,
+.div-game {
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.div-game {
+    border: 3px solid #ffa07d;
+}
+
+#customer-elements {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#click-button,
+body > nav.navbar-inverse {
+    background-color: #ffa07d;
+    color: white;
+}
+
+body > nav > div > a,
+#navbar_content > ul.nav.navbar-nav.navbar-right > li > a,
+#navbar_content > ul.nav.navbar-nav.navbar-left > li > p {
+    color: white !important;
+}
+
+.index-link {
+    color: dimgrey;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.index-link:hover {
+    text-decoration: none;
+}
+
+.connexion-form,
+.search-form {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#all-games-list,
+#game {
+    font-size: 18px;
+}
+
+ul {
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+#error-paragraph {
+    margin-top: 40px;
+    color: brown;
+    font-size: 22px;
+}
+
+.btn-primary {
+    background-color: #ffa07d;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-color: brown;
+}
+
+.btn-primary:hover {
+    background-color: brown;
+}
