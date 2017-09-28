@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="videoGame">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="videoGameJPA.jar" deploy-path="/lib" handle="module:/resource/videoGameJPA/videoGameJPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="videoGameEJB.jar" deploy-path="/" handle="module:/resource/videoGameEJB/videoGameEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="videoGameEJBClient.jar" deploy-path="/" handle="module:/resource/videoGameEJBClient/videoGameEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="videoGameWS.war" deploy-path="/" handle="module:/resource/videoGameWS/videoGameWS">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
