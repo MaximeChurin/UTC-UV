@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/nfl/SeasonProcessor.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/game2.txt</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/domain/DistanceAccumulator.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/tests/StatVarTest.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/domain/StatVar.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/season.txt</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/domain/Distance.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/tests/DistanceTest.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/domain/Player.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/tests/DistanceAccumulatorTest.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/game1.txt</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/utils/PackUtils.java</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/game3.txt</file>
+            <file>file:/C:/Users/maxime/Documents/NetBeansProjects/NFL/src/tests/PlayerTest.java</file>
+        </group>
+    </open-files>
+</project-private>
