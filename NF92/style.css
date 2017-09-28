@@ -1,0 +1,181 @@
+* {
+	margin:0;
+	padding:0;
+	border: #aaa;
+}
+
+body {
+	font-family: 'Trebuchet MS', 'times new roman', Arial, serif;
+	background: rgba(240,230,181,1);
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+h1 {
+	color:#ffa500;
+	margin-top:30px;
+	text-align: center;
+	font-size: 35px;
+	padding-bottom: 50px;
+}
+
+/* Mise en forme du menu */
+
+.menu {
+	background: #ffa500;
+	text-align: center;
+}
+
+.menu h3 {
+	color:black;
+	text-align: center;
+	background: rgba(232,216,142,1);
+	font-weight: bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 20px;
+}
+
+.menu h1 {
+	color:black;
+	text-align: center;
+	font-size: 35px;
+	padding-bottom: 50px;
+	margin-top:30px;
+	
+}
+
+.menu ul li {
+	list-style-type: none;
+	font-weight: normal;
+}
+
+.menu ul li  a{
+	display:block; 
+	width:220px;
+	padding-top:7px;
+	padding-bottom:7px;
+	color: white;
+	text-decoration:none;
+	font-size: 16px;
+}
+
+.menu li:hover{
+	background:rgba(253,187,77,1);
+	color:black;
+	cursor:pointer;
+}
+
+/* Mise en forme des tableaux */
+
+th {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	background: rgba(240,230,181,1);
+	width:200px;
+}
+
+td {
+	font-size: 19px;
+}
+
+tr {
+	padding-bottom: 15px;
+}
+
+
+
+
+textarea {
+	resize:none;
+}
+
+
+/* Mise en forme des tableaux style tableaux */
+
+.tableau {
+	font-family: 'Trebuchet MS', 'times new roman', Arial, serif;
+	background: rgba(240,230,181,1);
+}
+
+.tableau th {
+	border: thin solid #ffa500;
+	text-align: center;
+	background:#ffa500;
+	color:black;
+	padding: 7px;	
+}
+
+.tableau td {
+	border: thin solid rgba(232,216,142,1);
+	text-align: center;
+	background:rgba(232,216,142,1);
+	color:black;
+}
+
+.tableau table {
+	border-collapse:collapse;
+	width: 300px;
+}
+
+
+
+
+input[type="text"]{
+	width:240px;
+	padding:5px 4px;
+	background-color : white;
+}
+
+select {
+	background-color : white;
+	padding:5px 4px;
+}
+
+
+/* Mise en forme des boutons */
+
+input.bouton {
+	padding:6px 20px;
+	margin-top:30px;
+	background:#ffa500;
+	color:white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+input.bouton:hover {
+	background:rgba(253,187,77,1);
+	color:write;
+	cursor:pointer;
+}
+
+input.choix {
+	padding:6px 20px;
+	background:#ffa500;
+	color:white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+input.choix:hover {
+	background:rgba(253,187,77,1);
+	color:write;
+	cursor:pointer;
+}
+
+/* Mise en forme des tableaux type resultat */
+
+.resultat {
+	border:6px solid #ffa500;
+	border-radius: 10px;
+}
+
+input[type="text"]:focus, textarea:focus, input.bouton:focus, input.choix:focus, select:focus  {
+	outline: none;
+}
+
