@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1443993383 source:c:\users\maxime\desktop\gx01\nf16 tp\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

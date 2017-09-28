@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1452002370 source:c:\users\maxime\desktop\gx01\nf16\nf16 tp\tp4\main.c
+	"tp4.h"
+
+1450651210 c:\users\maxime\desktop\gx01\nf16\nf16 tp\tp4\tp4.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1452002326 source:c:\users\maxime\desktop\gx01\nf16\nf16 tp\tp4\tp4.c
+	"tp4.h"
+
+1452002084 source:z:\nf16\tp4\tp4.c
+	"tp4.h"
+
+1450651210 z:\nf16\tp4\tp4.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1450692211 source:z:\nf16\tp4\main.c
+	"tp4.h"
+

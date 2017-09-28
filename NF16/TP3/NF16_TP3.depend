@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1448217687 source:c:\users\maxime\desktop\gx01\nf16 tp\nf16_tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tp3.h"
+
+1448217262 c:\users\maxime\desktop\gx01\nf16 tp\nf16_tp3\tp3.h
+
+1448234336 source:c:\users\maxime\desktop\gx01\nf16 tp\nf16_tp3\tp3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tp3.h"
+	<math.h>
+
+1448234338 source:k:\nf16_tp3\tp3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tp3.h"
+	<math.h>
+
+1448217264 k:\nf16_tp3\tp3.h
+
+1448239764 source:k:\nf16_tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tp3.h"
+
+1448239764 source:c:\users\maxime\desktop\gx01\nf16\nf16 tp\nf16_tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tp3.h"
+
+1448217264 c:\users\maxime\desktop\gx01\nf16\nf16 tp\nf16_tp3\tp3.h
+
