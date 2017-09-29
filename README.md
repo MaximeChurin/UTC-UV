@@ -24,7 +24,7 @@ Differents TPs in `C` such as :
 ## NF26
 Data analisis of the taxis running in the city of Porto, in Portugal (link [here](https://archive.ics.uci.edu/ml/datasets/Taxi+Service+Trajectory+-+Prediction+Challenge,+ECML+PKDD+2015)). A set of real data from 2015 with more than 1 700 000 records described by 9 measurements. The purpose of this set of data and this analysis was to improve customer satisfaction regarding the waiting time and to be more competitive and profitable in the transport business. We clean, prepare and store the data in a cassandra database. Finally we did an offline k-means to retrieve the most important clusters of rides, plot them using a `python` lib called *Folium* and analyse them.
 
-[Clusters de taxi](NF26/screenshot_taxi.png)
+[Clusters de taxi](NF26/screenshot_taxis.png)
 
 ## NF92
 Simple website using `PHP`, `HTML` and `CSS` to manage a driving school and his customers : possibility to plan sessions, register a user, have some statistics ... Launch using *website.html*.
@@ -33,9 +33,9 @@ Simple website using `PHP`, `HTML` and `CSS` to manage a driving school and his 
 
 ## ProgII
 Differents `Java` projects such as : 
-...implementation of infinite precision naturals using arrays of integers
-...implementation of a graphical clock using *canvas* lib
-...an application to store NFL players data as their running distance and display some statistics
+- implementation of infinite precision naturals using arrays of integers
+- implementation of a graphical clock using *canvas* lib
+- an application to store NFL players data as their running distance and display some statistics
 
 ## SR03
 A project of a video game shop with an API server with authentification, request entities ..., a client website with login  for displaying the results and also an native android app with login and list-views.
